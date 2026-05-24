@@ -1,0 +1,32 @@
+{
+  "floors": {
+    "1": {
+      "name": "First Floor",
+      "aps": [
+        {
+          "id": "ap1",
+          "name": "Living Room AP",
+          "location": {"x": 0, "y": 0, "z": 0},
+          "interface": "wlan0"
+        },
+        {
+          "id": "ap2",
+          "name": "Kitchen AP",
+          "location": {"x": 10, "y": 0, "z": 0},
+          "interface": "wlan1"
+        }
+      ]
+    },
+    "2": {
+      "name": "Second Floor",
+      "aps": [
+        {
+          "id": "ap3",
+          "name": "Bedroom AP",
+          "location": {"x": 5, "y": 5, "z": 3},
+          "interface": "wlan2"
+        }
+      ]
+    }
+  }
+}
